@@ -16,7 +16,7 @@ const SideNav = () => {
     return (
         <div>
 
-            <div className="sidenav fixed text-[#fefe] bottom-3 right-0 z-50 border border-[#D32444] bg-[#0B0C17] rounded-md ">
+            <div className="sidenav fixed text-[#fefe] bottom-3 right-1 z-50 border border-[#D32444] bg-[#0B0C17] rounded-md ">
 
 
                 <nav className="content flex gap-20 p-5" >
@@ -109,9 +109,9 @@ const SideNav = () => {
 
                     <div className={ !nav ? " flex flex-row items-center gap-10 " : 'socails flex flex-row items-center gap-10 md:flex-col mt-[90%] md:mt-[35%]'}>
                       <div className={!nav ? "hidden md:flex flex-row gap-3" : "container flex flex-row gap-3 md:flex-col " }>
-                        <a href=''><img className='w-[24px]' src='../images/FB.png' /></a>
-                        <a href=''><img className='w-[24px]' src='../images/IN.png' /></a>
-                        <a href=''><img className='w-[24px]' src='../images/TW.png' /></a>
+                        <a href=''><img className='w-[34px]' src='../images/FB.png' /></a>
+                        <a href=''><img className='w-[34px]' src='../images/IN.png' /></a>
+                        <a href=''><img className='w-[34px]' src='../images/TW.png' /></a>
 </div>
                         <div className="btn  cursor-pointer transition-all duration-500" onClick={handleNav}>
                             {!nav ? <AiOutlineMenu  size={20} color='#D32444' /> : <AiOutlineClose size={20} color='#D32444' />}

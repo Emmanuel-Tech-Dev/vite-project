@@ -48,9 +48,10 @@ from anywhere</h1>
 
  </div>
 
-<div className="button mt-10 font-sub font-medium text-[#fefe] md:hidden">
-    <a className='bg-[#D32444] px-[36%] py-2 rounded' href='#'>Download Now</a>
+ <div class="button mt-10 font-sub font-medium text-[#fefe] md:hidden">
+  <a class="block bg-[#D32444] py-2 px-4 rounded w-full text-center" href="#">Download Now</a>
 </div>
+
 
       </div>
 
