@@ -4,6 +4,7 @@ import {TfiAngleRight , TfiAngleLeft } from 'react-icons/tfi'
 
 const Controllers = (props) => {
 
+// Trigger the scroll when a prev and next button is clicked on larger screens
 
     const [scrollPosition , setScrollPosition] = useState(0);
 

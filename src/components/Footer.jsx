@@ -10,7 +10,7 @@ const Footer = () => {
         <hr className='bg-[#D32444] h-[3px] outline-none border-none' />
 
         <footer className='mt-5 p-5 md:mx-[5%] '>
-          <div className="content md:flex md:justify-between">
+          <div className=" md:flex md:justify-between">
             <div className="logo">
               <img src='../images/logo.png' />
             </div>

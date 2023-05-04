@@ -10,7 +10,7 @@ const Jumbotron = () => {
       
 
       <div className="card backdrop-blur-xl rounded bg-white/5 w-[95%] m-auto p-5 mt-[10%] " >
-<div className="content flex flex-col items-center md:flex-row-reverse md:justify-between md:mx-[10%]">
+<div className=" flex flex-col items-center md:flex-row-reverse md:justify-between md:mx-[10%]">
         <div className="image mt-10 md:mr-10">
             <img src='../images/mockup.png' className='md:w-[300px]' />
         </div>
