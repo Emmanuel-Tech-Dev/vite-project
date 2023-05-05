@@ -30,3 +30,20 @@ nav{
 .indix{
   transition: .5s;
 }
+
+
+@media screen and (max-width:700px) {
+  
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+}
+
+
