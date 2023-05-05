@@ -13,7 +13,7 @@ const PromoCards = (props) => {
 <div className="cards ">
     <div className="card p-5 ">
 
-        <div className="content  -mt-5 text-[#fefe]  bg-[#000] w-[300px] ">
+        <div className="-mt-5 text-[#fefe]  bg-[#080808] w-[300px] ">
             <div className="image-card relative">
                 <img className='h-[] w-[100%] rounded' src={props.item.img} />
 
@@ -23,7 +23,7 @@ const PromoCards = (props) => {
 
             </div>
 
-            <div className="details font-new text-[18px] mt-2 px-2 font-medium">
+            <div className="details font-new text-[18px] mt-2 px-2 font-medium  pb-2 ">
                 <h1>{props.item.name}</h1>
                
             </div>
